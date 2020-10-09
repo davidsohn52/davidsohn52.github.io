@@ -2957,3 +2957,7 @@ input, select, textarea {
 	display: table;
 	clear: both;
 	}
+
+	.carousel-caption h1{
+		color: #dfdfdf;
+	}
