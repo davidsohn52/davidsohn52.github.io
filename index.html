@@ -14,7 +14,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</head>
-	<body class="homepage is-preload">
+	<body class="homepage is-preload" data-spy="scroll" data-target="#nav" data-offset="0"> 
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -23,13 +23,13 @@
 					<!-- Nav -->
 						<nav id="nav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 							<h1>David Sohn</h1>
-							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
-								<li><a href="./index.html#intro">About Me</a></li>
-								<li><a href="./index.html#main">Projects</a></li>
-								<li><a href="/Pages/blog-home.html">Blog</a></li>
-								<li><a href="/files/Resume_new.pdf" target="_blank">Resume</a></li>
-								<li><a href="#footer">Contact</a></li>
+							<ul class="nav nav-pills">
+								<li><a class="nav-link" href="#header">Home</a></li>
+								<li><a class="nav-link" href="#intro">About Me</a></li>
+								<li><a class="nav-link" href="#main">Projects</a></li>
+								<li><a class="nav-link" href="#footer">Contact</a></li>
+								<li><a class="nav-link" href="/files/Resume_new.pdf" target="_blank">Resume</a></li>
+								<li><a class="nav-link" href="https://studio.eecs.umich.edu/confluence/display/WSOFT/WolverineSoft">Blog</a></li>
 							</ul>
 						</nav>
 
@@ -42,30 +42,31 @@
 						</section>
 
 					<!-- Intro -->
-						<section id="intro" class="container" style="padding-top:4em; padding-bottom: 2em;">
+						<section id="intro" class="container" style="padding: 5em 0 5em 0;">
 							<header class="major">
 								<h2>About Me</h2>
 							</header>
 							<article class="text-xl-center">
-								<ul>
+								<ul id="main-list">
 									<li>Computer Science senior at the University of Michigan.</li>
-									<li>4 years of experience with C++, Java, Python</li>
+									<li>4 years of experience with C++, Java, Python.</li>
 									<li>2 years of experience with Unity.</li>
 									<li>1 semester experience teaching Unity and game design.</li>
-									<li>Treasurer of the game development club WolverineSoft</li>
-									<li>2 years experience with Adobe Photoshop and Illustrator</li>
+									<li>Treasurer of the game development club WolverineSoft.</li>
+									<li>2 years experience with Adobe Photoshop and Illustrator.</li>
+									<li>Multidisciplinary experience working with and leading project teams.</li>
 								</ul>
 							</article>
 						</section>
 				</section>
 
 			<!-- Main -->
-				<section id="main">
+				<section id="main" style="padding-top: 5em;">
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
 								<!-- Blog -->
-									<section class="container">
+									<section class="container" id="portfolio">
 										<header class="major">
 											<h2>My Portfolio</h2>
 										</header>

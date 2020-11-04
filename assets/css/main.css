@@ -2964,3 +2964,11 @@ input, select, textarea {
 	.carousel-caption h3{
 		color: #dfdfdf;
 	}
+
+	#main-list{
+		font-size: 24px;		
+	}
+		#main-list li{
+			margin: 0 0 10px 0;
+		}
+
